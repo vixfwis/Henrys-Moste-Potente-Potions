@@ -12,7 +12,9 @@ GC        grind Mortar, add to Cauldron
 GD        grind Mortar, put into Dish
 DC        add Dish to Cauldron
 ↓ ↑       lower / raise Cauldron
-1H 2H 3H  turn Hourglass, wait 1/2/3 full runs
+1H        turn Hourglass, wait until it runs out
+9H/10     turn Hourglass, wait until just before it runs out
+          (~1-2 s left of 10 s; recipes pin this at 9/10, i.e. 1 s left)
 H/2       turn Hourglass, wait until halfway
 1B 5B     pump Bellows 1x / 5x
 Dist      distil into Phial
@@ -59,28 +61,28 @@ Aqua Vitalis        Water:   2 Dand C ↓ 1 Mari GC 1H Dist
 Artemisia           Spirits: 1 Sage C ↓ 2 Worm GC H/2 Dist
 Bane Poison         Wine:    1 Worm C ↓ 2 Bell GC 5B ↑ 1 Aman C Dist
 Bowman's Brew       Spirits: 2 Eye C ↓ 1H 1 SJW GD ↑ DC ↓ 5B ↑ Dist
-Buck's Blood Potion Oil:     1 SJW GC 1 Comf C ↓ 1H 1 Dand C 5B ↑ Pour
-Chamomile Decoction Wine:    1 Sage GD 2 Cham C ↓ 1H ↑ DC Pour
-Cockerel            Spirits: 2 Mint GC ↓ 1H 1 Val C 1H Dist
+Buck's Blood Potion Oil:     1 SJW GC 1 Comf C ↓ 9H/10 1 Dand C 5B ↑ Pour
+Chamomile Decoction Wine:    1 Sage GD 2 Cham C ↓ 9H/10 ↑ DC Pour
+Cockerel            Spirits: 2 Mint GC ↓ 9H/10 1 Val C 1H Dist
 Digestive Potion    Water:   2 This C ↓ H/2 1 Net GC H/2 ↑ 1 Char GC Pour
-Dollmaker Potion    Spirits: 2 HPar C ↓ 1H H/2 1 Val GC H/2 Dist
+Dollmaker Potion    Spirits: 2 HPar C ↓ 9H/10 H/2 1 Val GC H/2 Dist
 Embrocation         Oil:     1 Pop 1 Val C ↓ 1 Eye GD ↑ DC 1 Boar C ↓ Pour
 Fever Tonic         Wine:    3 Fev C ↓ 1 Eld GC ↑ 2 Gin C Dist
 Fox                 Oil:     1 Net 1 SJW GC ↓ 1 Char GD ↑ DC 1 Bell C ↓ Pour
-Hair o' the Dog     Water:   1 Sage 1 SJW C ↓ 1H H/2 1 Mint GD ↑ DC Pour
+Hair o' the Dog     Water:   1 Sage 1 SJW C ↓ 9H/10 H/2 1 Mint GD ↑ DC Pour
 Lead Shot Gunpowder Water:   1 Salt 1 Sulf GC ↓ H/2 1 Char GC H/2 Pour G
-Lethean Water       Spirits: 2 Worm GC 1 Bell C ↓ 3H ↑ 1 Henb C Dist
+Lethean Water       Spirits: 2 Worm GC 1 Bell C ↓ 9H/10 9H/10 9H/10 ↑ 1 Henb C Dist
 Lion Perfume        Spirits: 2 Sage C ↓ 2 Mint GD ↑ DC Pour
-Lullaby             Oil:     1 Pop C ↓ 1H 1 This C 1H ↑ 1 HPar GC Pour
+Lullaby             Oil:     1 Pop C ↓ 9H/10 1 This C 9H/10 ↑ 1 HPar GC Pour
 Marigold Decoction  Water:   1 Net C ↓ 2 Mari GD ↑ DC Pour
-Mintha Perfume      Wine:    3 Dand 1 Mint GC ↓ 2H 1 Mari C 5B ↑ Dist
+Mintha Perfume      Wine:    3 Dand 1 Mint GC ↓ 9H/10 9H/10 1 Mari C 5B ↑ Dist
 Moonshine           Spirits: 2 Worm C ↓ 2 Mint GC Dist
-Nighthawk           Water:   2 Eye GC 1 Bell C ↓ 1H H/2 1 Cham GD ↑ DC Pour
-Painkiller Brew     Spirits: 3 Pop GC 1 Mari C ↓ 5B 1 Comf C 1H Dist
+Nighthawk           Water:   2 Eye GC 1 Bell C ↓ 9H/10 H/2 1 Cham GD ↑ DC Pour
+Painkiller Brew     Spirits: 3 Pop GC 1 Mari C ↓ 5B 1 Comf C 9H/10 Dist
 Quickfinger         Water:   1 Cob 2 Eye C ↓ 1H 2 Val GC H/2 ↑ Pour
 Saviour Schnapps    Wine:    1 Net C ↓ 2 Bell GC H/2 ↑ Pour
-Scattershot Powder  Water:   1 Salt 1 Sulf GC ↓ 1H H/2 1 LCoal GC Pour G
-Soap                Oil:     2 This GC ↓ 1 Char GD 1 Dand C 1H ↑ DC Pour
+Scattershot Powder  Water:   1 Salt 1 Sulf GC ↓ 9H/10 H/2 1 LCoal GC Pour G
+Soap                Oil:     2 This GC ↓ 1 Char GD 1 Dand C 9H/10 ↑ DC Pour
 ```
 
 ## High Level
